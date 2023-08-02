@@ -1,0 +1,8 @@
+{
+    "require": {
+        "symfony/dom-crawler": "^6.3",
+        "react/event-loop": "^1.4.0",
+        "react/http": "^1.9",
+        "symfony/css-selector": "^6.3"
+    }
+}
