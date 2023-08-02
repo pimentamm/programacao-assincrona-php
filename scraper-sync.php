@@ -21,6 +21,8 @@ $links = $nodes->each(function(Crawler $item, $i) use ($baseUri) {
     ];
 });
 
+$links = array_slice($links, 0, 25);
+
 foreach ($links as $key => $link) {
     // 3. visit slides page
     $curl = curl_init($link['href']);
